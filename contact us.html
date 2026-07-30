@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechVenger - Contact Us</title>
+    <script src="https://kit.fontawesome.com/d5f53d68dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="about.css">
+  <style>
+
+    *{
+      margin: 0;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+    }
+
+    #container-1 {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #2f3239;
+}
+
+#nested-container-2 {
+    padding: 2.5rem 2.4rem 0 0;
+}
+
+#nested-container-2 a {
+    text-decoration: none;
+    padding: 0 0 0 50px;
+    color: white;
+    font-size: 20px;
+}
+
+#nested-container-2 a:hover {
+    color: #44aabe;
+    font-size: 22px;
+}
+
+#nested-container-2 a i {
+    font-size: 25px;
+}
+
+#nested-container-1 img {
+    /* margin: -px 0 0 0; */
+    height: 120px;
+}
+
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: #4fd1c5;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #d1e7e5;
+    }
+
+    .contact-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+      padding: 30px;
+    }
+
+    .contact-info h2,
+    .contact-form h2 {
+      color: #4fd1c5;
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    .contact-info strong {
+      color: #7fffd4;
+    }
+
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      margin-bottom: 15px;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .contact-form textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    .contact-form button {
+      padding: 12px;
+      background: #4fd1c5;
+      color: #000;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background: #38b2ac;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #ccecec;
+    }
+
+    @media (max-width: 768px) {
+      .contact-wrapper {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    #fotter-container{
+    height: 350px;
+    width: 100%;
+    background-color: #2f3239;
+}
+
+#fotter-container p {
+    color: white;
+}
+
+#fotter-container h1{
+    color: white;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#nested-fotter-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#short-intro{
+    width: 300px;
+    text-align:left;
+}
+
+#Quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+#fotter-links{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:  20px 0 0 0;
+}
+
+#copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 90px;
+}
+
+#social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+#Contact-info i{
+    margin-right: 20px;
+}
+
+#social-icons a{
+    color: white;
+}
+  </style>
+</head>
+<body>
+
+  <div id="container-1">
+        <div id="nested-container-1">
+            <a href="index.html"><img src="logoiict.png" alt="Error"></a>
+        </div>
+        <div id="nested-container-2">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="#">Contact Us</a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+        </div>
+    </div> <br>
+
+  <div class="container">
+    <header>
+      <h1>Contact Tech Vengers</h1>
+      <p>We are here to help you with your technology needs</p>
+    </header>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>Company:</strong> Tech Vengers</p>
+        <p><strong>Contact Number:</strong> 0331392494</p>
+        <p><strong>Address:</strong> Bahria University, Karachi</p>
+        <p>Feel free to reach out to us for collaborations, support, or project inquiries.</p>
+      </div>
+
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="tel" placeholder="Your Contact Number" required />
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="fotter-container"> <br><br>
+        <div id="nested-fotter-container">
+            <div id="short-intro">
+                <div id="logo-container">
+                    <img src="logoiict.png" alt="" height="100px">
+                </div>
+                <div id="short-intro">
+                    <p id="para-con">Techvenger is a modern tech retailer offering a wide range of audio gear like
+                        wireless earbuds, AirPods, and high-quality headphones.</p>
+                </div>
+            </div>
+            <div id="Quick-links">
+                <h1 id="fotter-heading">Quick Links</h1> <br> 
+                <a href="#" id="fotter-links">Home</a>
+                <a href="#" id="fotter-links">Products</a>
+                <a href="#" id="fotter-links">About Us</a>
+                <a href="#" id="fotter-links">Contact Us</a>
+            </div>
+            <div id="Contact-info">
+                <h1>Get-In-Touch</h1> <br>
+                <p><i class="fa-solid fa-phone"></i>+92-330 123456</p> <br>
+                <p><i class="fa-solid fa-envelope"></i>example@gmail.com</p><br>
+                <p><i class="fa-solid fa-map-pin"></i> 123-Example Street, Example Country</p>
+            </div>
+        </div> <br>
+
+        <hr> <br> <br>
+        <div id="copyright">
+            <div id="nested-copyright">
+                <p><i class="fa-regular fa-copyright"></i> Copyright 2025 . All Rights Reserved </p>
+            </div>
+            <div id="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

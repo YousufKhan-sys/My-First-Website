@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "slabo-27px-regular";
+    background-image: url(back.png);
+    background-size: cover;
+}
+
+
+#container-1 {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #2f3239;
+}
+
+#nested-container-2 {
+    padding: 2.5rem 2.4rem 0 0;
+}
+
+#nested-container-2 a {
+    text-decoration: none;
+    padding: 0 0 0 50px;
+    color: white;
+    font-size: 20px;
+}
+
+#nested-container-2 a:hover {
+    color: #44aabe;
+    font-size: 22px;
+}
+
+#nested-container-2 a i {
+    font-size: 25px;
+}
+
+#nested-container-1 img {
+    /* margin: -px 0 0 0; */
+    height: 120px;
+}
+
+
+#heading-about{
+    text-align: center;
+    font-weight: 400;
+}
+
+#container-2{
+        display: flex;
+    justify-content: space-around;
+    height: 550px;
+    width: 80%;
+    background-color:#44aabe;
+    border-radius: 10px;
+        margin: 100px 0 0 130px;
+        opacity: 0.7;
+}
+
+#fotter-container{
+    height: 350px;
+    width: 100%;
+    background-color: #2f3239;
+}
+
+#fotter-container p {
+    color: white;
+}
+
+#fotter-container h1{
+    color: white;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#nested-fotter-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#short-intro{
+    width: 300px;
+    text-align:left;
+}
+
+#Quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+#fotter-links{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:  20px 0 0 0;
+}
+
+#copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 90px;
+}
+
+#social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+#Contact-info i{
+    margin-right: 20px;
+}
+
+#social-icons a{
+    color: white;
+}
+
+#abouttext{
+    width: 500px;
+}
+
+#abouttext h1{
+    text-align: center;
+    font-weight: 400;
+}
+
+#abouttext p{
+    text-align:center;
+}
+
+#counter-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#counter-container h1{
+    color: white;
+    font-weight: 400;
+}
+
+.nested-counter span{
+    margin: 0 0 0 83px;
+}
+
+
+#counter-container span{
+    color: white;
+    font-size: 50px;
+}
+
+#container-3 h1{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+}
+
+#founders {
+    padding: 80px 40px;
+    text-align: center;
+    background: transparent;
+}
+
+
+.founders-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+#founder-heading{
+    color: white;
+    font-weight: 400;
+}
+
+.founder-card {
+    background: #ffffff;
+    width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.founder-card:hover {
+    transform: translateY(-8px);
+}
+
+.founder-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#founders h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.role {
+    color: #007BFF;
+    font-weight: 600;
+}
+
+.bio {
+    font-size: 14px;
+    color: #555;
+}
+
+#fotter-container{
+    height: 350px;
+    width: 100%;
+    background-color: #2f3239;
+}
+
+#fotter-container p {
+    color: white;
+}
+
+#fotter-container h1{
+    color: white;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#nested-fotter-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#short-intro{
+    width: 300px;
+    text-align:left;
+}
+
+#Quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+#fotter-links{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:  20px 0 0 0;
+}
+
+#copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 90px;
+}
+
+#social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+#Contact-info i{
+    margin-right: 20px;
+}
+
+#social-icons a{
+    color: white;
+}
